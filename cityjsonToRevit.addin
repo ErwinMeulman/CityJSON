@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>cityjsonToRevit</Name>
+    <Assembly>cityjsonToRevit.dll</Assembly>
+    <AddInId>FCC9ECBA-D820-4BB2-99C0-A8CF3F07EBF8</AddInId>
+    <FullClassName>cityjsonToRevit.Program</FullClassName>
+    <Text>DbRunner</Text>
+    <Description>Opens database file</Description>
+    <VendorId>Amir</VendorId>
+    <VendorDescription>TUD</VendorDescription>
+    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>ApplicationPlugin</Name>
+    <Assembly>cityjsonToRevit.dll</Assembly>
+    <AddInId>808737A5-0E43-4501-8C08-32441817C580</AddInId>
+    <FullClassName>cityjsonToRevit.ExternalApplication</FullClassName>
+    <VendorId>Amir</VendorId>
+    <VendorDescription>TUD</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Name>cityjsonToRevit</Name>
+    <Assembly>cityjsonToRevit.dll</Assembly>
+    <AddInId>ED8E8E87-7EAF-4A81-B839-9799679E4D73</AddInId>
+    <FullClassName>cityjsonToRevit.Hide</FullClassName>
+    <Text>HideIt</Text>
+    <Description>HideUnhide created elements</Description>
+    <VendorId>Amir</VendorId>
+    <VendorDescription>TUD</VendorDescription>
+    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+  </AddIn>
+  <AddIn Type="Command">
+    <Name>cityjsonToRevit</Name>
+    <Assembly>cityjsonToRevit.dll</Assembly>
+    <AddInId>BA112B91-1EF5-4428-9478-04CB98CC07D2</AddInId>
+    <FullClassName>cityjsonToRevit.Bag</FullClassName>
+    <Text>3DBAG</Text>
+    <Description>creates generic model elements from 3dbag server</Description>
+    <VendorId>Amir</VendorId>
+    <VendorDescription>TUD</VendorDescription>
+    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+  </AddIn>
+</RevitAddIns>
